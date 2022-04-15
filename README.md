@@ -1,6 +1,7 @@
 # Lazy Django Project Starter
 
-### Lazy Django Project starter is a small project for creating a new django project in Ubuntu.
+### Lazy Django Project starter is a small project for creating a new django project with docker and postgres in Ubuntu automatically.
+
 
 To start, make sure you have git and docker installed, then clone this repository 
 
