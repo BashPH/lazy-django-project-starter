@@ -1,0 +1,15 @@
+version: "3.9"
+   
+services:
+  build:
+    profiles: ["build-only"]
+    container_name: lazy_django_project_starter_build
+    build: .
+    command:
+      - sh
+      - -c
+      - |
+        python3 -m django startproject lazy_django_project_starter
+        mv lazy_django_project_starter src 
+    volumes:
+      - .:/code
