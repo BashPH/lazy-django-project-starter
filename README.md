@@ -32,8 +32,14 @@ In the example above, it will create new project in /home/yansantos/Projects/Bas
 
 Once the setup is done, it will start automatically and you can visit your freshly created django project in http://localhost:8000/
 
-What is inside the newly created Project
+The files django-admin created are owned by root, we now want to change it to current user by running below command in root directory
 
-![image](https://user-images.githubusercontent.com/34324691/163565468-1b23af97-90b2-46a6-922f-97f04689718a.png)
+```shell
+sudo chown -R $USER:$USER .
+```
+
+What is inside the newly created Project
+![image](https://user-images.githubusercontent.com/34324691/163657190-6eb478b1-90f7-47c9-8edf-dc92c26605ee.png)
+
 
 
